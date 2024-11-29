@@ -1,6 +1,6 @@
 package edu.iesam.examaad1eval.features.ex1.data
 
-import edu.iesam.examaad1eval.features.ex1.MockEx1RemoteDataSource
+import edu.iesam.examaad1eval.features.ex1.data.remote.MockEx1RemoteDataSource
 import edu.iesam.examaad1eval.features.ex1.data.local.xml.Ex1XmlLocalDataSource
 import edu.iesam.examaad1eval.features.ex1.domain.Ex1Repository
 import edu.iesam.examaad1eval.features.ex1.domain.Item
