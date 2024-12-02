@@ -1,7 +1,5 @@
-package edu.iesam.examaad1eval.features.ex2.data.remote
+package edu.iesam.examaad1eval.features.ex2
 
-import edu.iesam.examaad1eval.features.ex2.domain.Game
-import edu.iesam.examaad1eval.features.ex2.domain.Player
 import kotlin.collections.first
 import kotlin.collections.last
 import kotlin.collections.shuffled
