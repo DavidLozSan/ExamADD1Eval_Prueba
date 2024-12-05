@@ -8,4 +8,8 @@ class GameDbLocalDataSource(private val gameDao: GameDao) {
         val gamesList = games.map { it.toEntity() }
         gameDao.saveAll(*gamesList.toTypedArray())
     }
+
+    fun getAll() : List<Game>{
+        return gameDao.getAll().map { it.toDomain() }
+    }
 }
