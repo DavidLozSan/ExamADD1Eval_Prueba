@@ -1,11 +1,15 @@
 package edu.iesam.examaad1eval.features.ex2
 
+import kotlin.collections.first
+import kotlin.collections.last
+import kotlin.collections.shuffled
+
 class MockEx2RemoteDataSource {
 
     fun getGames(): List<Game>{
         return listOf(
             Game("1", "Day of Tentacle", getPlayers()),
-            Game("2", "Monkey Island", listOf( getPlayers().first())),
+            Game("2", "Monkey Island", listOf(getPlayers().first())),
             Game("4", "Comandos 1", listOf(getPlayers().last())),
             Game("5", "Comandos 2", listOf(getPlayers().last())),
             Game("6", "Comandos 3", listOf(getPlayers().last())),
